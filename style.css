@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#canvas1 {
+	background: #F7ECD0;
+	position: absolute;
+}
+
+
+.controls {
+	position: absolute;
+	top: 40px;
+    right: 100px;
+	z-index: 100;
+}
+
+img{
+	display: none;
+}
+
+button{
+	padding:20px;
+	font-size: 20px;
+	margin:5px;
+	font-family:'Courier Prime';
+	color: #F7ECD0;
+	background: #0057FF;
+	transition: 0.2s;
+}
+
+button:hover {
+	color:#0057FF;
+	background: #F7ECD0;
+}
